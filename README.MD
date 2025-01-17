@@ -1,7 +1,5 @@
-
-    <p align="center">
-    <br />
-    <img src="https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png">
+<p align="center">
+    <img src="https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png" alt="Cutman">
 </p>
 
 <h1 align="center">
