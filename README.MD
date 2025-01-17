@@ -1,10 +1,10 @@
+
+    <p align="center">
+    <br />
+    <img src="https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png">
+</p>
+
 <h1 align="center">
-  <br />
-  <img
-    src="./_docs/assets/icon.png"
-    alt="Mega Man Robots API"
-    width="150"
-  />
   <br />
   <b>Mega Man Robots API</b>
   <br />
@@ -28,27 +28,36 @@
   </a>
 </h1>
 
-<p align="center">
+<p align="">
   This .NET Core API is designed to serve JSON formatted data about bosses from
   the Mega Man series. It is a backend service built with .NET Core 3.1 and
   various modern dependencies for data management and API response handling.
   <br />
 </p>
 
-<p align="center">
+<p align="">
   Developed with Entity Framework Core and other modern .NET technologies, this
   project aims to provide a robust API for accessing Mega Man robot data.
   <br />
 </p>
 
-<p align="center">
+<p align="">
   <br />
   <img src="./_docs/assets/carbon.png" />
 </p>
 
+
+## Requirements
+
+ - **.NET Core SDK**
+   Ensure you have the .NET Core 3.1 SDK or higher installed.
+
+ - **Database**
+   The API uses Entity Framework Core for database interactions. A database setup is required before running the project.
+
 ## API Endpoints
 
-<table align="center">
+<table align="">
   <tr>
     <th>Method</th>
     <th>Endpoint</th>
@@ -71,9 +80,39 @@
   </tr>
 </table>
 
+## Features
+
+- **Framework**: Built on [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1).
+- **Database**: Integration with [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) for database operations.
+- **Serialization**: Uses [Newtonsoft.Json](https://www.newtonsoft.com/json) for JSON serialization.
+- **Endpoints**: Provides RESTful APIs to fetch and manage data.
+
+## Project Structure
+
+The project is organized as follows:
+```
+.vs
+.vscode
+bin
+Controllers
+Database
+middlewares
+Models
+obj
+Properties
+Services
+appsettings.Development.json
+appsettings.json  
+global.json
+MegamanApi.csproj  
+MegamanApi.sln
+Program.cs
+Startup.cs
+```
+
 ## Techniques Used
 
-<p align="center">
+<p align="">
   - <b>Entity Framework Core:</b> ORM for data management.<br />
   - <b>RESTful API Design:</b> Ensures clear and effective communication
   endpoints.<br />
@@ -81,9 +120,9 @@
   enhanced testability.<br />
 </p>
 
-## Dependencies
+# Dependencies
 
-<table align="center">
+<table align="">
   <tr>
     <th>Package</th>
     <th>Version</th>
